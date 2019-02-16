@@ -8,7 +8,7 @@ package com.lrz.nowcoder;
  */
 public class Solution1 {
 
-    public boolean Find(int target, int [][] array) {
+    public boolean Find(int target, int[][] array) {
         boolean flag = false;
         for (int[] arr : array) {
             if (contains(target, arr)) {
@@ -23,7 +23,7 @@ public class Solution1 {
         int i = 0;
         int j = nums.length - 1;
         while (i <= j) {
-            int a = (j - i) /2 + i;
+            int a = (j - i) / 2 + i;
             if (nums[a] == target) {
                 return true;
             }

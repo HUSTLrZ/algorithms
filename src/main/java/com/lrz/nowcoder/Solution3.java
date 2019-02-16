@@ -1,5 +1,7 @@
 package com.lrz.nowcoder;
 
+import com.lrz.nowcoder.datatypes.ListNode;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -16,15 +18,6 @@ public class Solution3 {
         }
         Collections.reverse(result);
         return result;
-    }
-
-    class ListNode {
-        int val;
-        ListNode next = null;
-
-        ListNode(int val) {
-            this.val = val;
-        }
     }
 }
 
