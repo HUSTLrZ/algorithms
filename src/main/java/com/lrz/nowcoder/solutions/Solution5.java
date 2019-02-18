@@ -1,4 +1,4 @@
-package com.lrz.nowcoder;
+package com.lrz.nowcoder.solutions;
 
 import java.util.Stack;
 

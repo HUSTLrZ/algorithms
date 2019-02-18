@@ -1,4 +1,4 @@
-package com.lrz.nowcoder;
+package com.lrz.nowcoder.solutions;
 
 /**
  * 给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。
