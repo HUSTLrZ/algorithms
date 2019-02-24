@@ -6,7 +6,10 @@ public class SortMain {
 //        BubbleSort.sort(nums);
 //        SelectionSort.sort(nums);
 //        InsertionSort.sort(nums);
-        ShellSort.sort(nums);
+//        ShellSort.sort(nums);
+//        MergeSort.sort(nums, 0, nums.length - 1);
+//        QuickSort.sort(nums, 0, nums.length - 1);
+        HeapSort.sort(nums);
         for (int num : nums) {
             System.out.print(num + " ");
         }
